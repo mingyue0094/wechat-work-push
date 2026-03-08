@@ -152,7 +152,7 @@ func initViper() {
 	_touser = viper.GetString("touser")
 	_agentid = viper.GetInt("agentid")
 	_secretkey = viper.GetString("secretkey")
-	_Addr := viper.GetString("addr")
+	_Addr = viper.GetString("addr")
 
 }
 
