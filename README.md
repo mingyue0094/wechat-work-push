@@ -103,13 +103,9 @@ curl -X POST "http://127.0.0.1:8234/2wx" -H "Content-Type: application/json" -d 
 
 
 | 参数名 | 类型 | 是否必填 | 说明 |
-
 |--------|------|----------|------|
-
 | title | string | 否 | 消息标题（可选） |
-
 | msg | string | 是 | 消息正文（必须） |
-
 | key | string | 是 | 请求验证密钥（必须匹配配置的 WX_SECRETKEY） |
 
 
