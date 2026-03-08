@@ -120,6 +120,8 @@ curl -X POST "http://127.0.0.1:8234/2wx" -H "Content-Type: application/json" -d 
 
 请参考 [企业微信官方文档](https://work.weixin.qq.com/api/doc) 获取 `corpid`、`corpsecret`、`agentid` 等信息。
 
+注意： 必须配置白名单ip (企业可信IP)
+
 
 
 ### 2. 接收消息的用户如何指定？
